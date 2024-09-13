@@ -161,22 +161,28 @@ export const checklistItems = [
 
 export const faceCards = [
   {
-    image: {logo},
+    image: user1,
     name: "John Doe",
     title: "Developer",
     description: "Expert in web development and design.",
   },
   {
-    image: "path/to/image2.jpg",
+    image: user2,
     name: "Jane Smith",
     title: "Designer",
     description: "Creative mind with a passion for UI/UX.",
   },
   {
-    image: "path/to/image3.jpg",
+    image: user3,
     name: "Alice Johnson",
     title: "Product Manager",
-    description: "Experienced in product development and management.",
+    description: "Experienced in product development.",
+  },
+  {
+    image: user4,
+    name: "Kario Mart",
+    title: "Team Manager",
+    description: "Experienced in avoiding obstacles.",
   },
 ];
 
