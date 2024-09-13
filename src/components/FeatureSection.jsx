@@ -1,4 +1,5 @@
 import { features } from "../constants";
+import logo from "../assets/white_logo.png";
 
 const FeatureSection = () => {
   return (
@@ -32,6 +33,8 @@ const FeatureSection = () => {
         ))}
       </div>
     </div>
+                                    
+    
   );
 };
 

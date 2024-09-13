@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import ContactPage from "./components/ContactPage";
-
+import Team from "./components/Team";
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
         <FeatureSection />
+        <Team />
         <Workflow />
         {/* <Pricing /> */}
         <Testimonials />
